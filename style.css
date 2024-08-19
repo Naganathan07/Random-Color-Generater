@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    font-size: 20px;
+}
+.random-clr-generater-container{
+    display: flex;
+    gap: 10px;
+}
+.hex-clr-container,.rgb-clr-container{
+    min-height: 100vh;
+    flex: 1;
+}
+.hex-clr-container button{
+    padding:12px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(195, 255, 127);
+
+}
+.hex-clr-value{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.rgb-clr-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hex-clr-container{
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rgb-clr-container{
+    background-color: burlywood;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rgb-clr-container button{
+ padding:12px 20px;
+cursor: pointer;
+font-size: 18px;
+font-weight: bold;
+background-color: rgb(255, 127, 185);
+color: white;
+}
+.rgb-clr-value{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
